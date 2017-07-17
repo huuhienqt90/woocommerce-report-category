@@ -1,0 +1,22 @@
+div#izw-row {
+    display: table;
+    width: 100%;
+}
+.izw-column {
+    width: 33%;
+    display: table-cell;
+    vertical-align: top;
+    height: 160px;
+}
+.izw-column:nth-child(3n+3) {
+    vertical-align: bottom;
+}
+.izw-information {
+    border: 1px solid;
+    padding: 10px;
+    width: 92%;
+}
+div#izw-row .izw-column p{
+    padding: 0;
+    margin: 0;
+}
